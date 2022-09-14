@@ -2,7 +2,7 @@
 ### DevOps Culture and Practice <!-- .element: class="course-title" -->
 ### Tech Exercise I  - The Manual Menace <!-- .element: class="title-color" -->
 ### Everything as Code <!-- .element: class="title-color" -->
-TL500 <!-- .element: class="title-color" -->
+<!-- .element: class="title-color" -->
 
 
 
