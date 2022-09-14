@@ -85,6 +85,10 @@ When something is seen as not matching the required state in Git, an application
           usernameSecret:
             key: username
             name: git-auth
+      sso:
+        provider: dex
+        dex:
+          openShiftOAuth: true
 EOF
     ```
 
