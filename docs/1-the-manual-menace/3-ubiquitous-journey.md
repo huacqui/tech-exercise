@@ -55,12 +55,6 @@ All of these traits lead to one outcome - the ability to build and release quali
     ⛷️ <b>TIP</b> ⛷️ - If your password includes special characters, try putting it in single quotes. ie: <strong>'A8y?Rpm!9+A3B/KG'</strong>
     </p>
 
-    Generate your Gitlab PAT.
-
-    ```bash
-    gitlab_pat
-    ```
-
     Echo the `GITLAB_PAT` environment variable.
 
     ```bash
