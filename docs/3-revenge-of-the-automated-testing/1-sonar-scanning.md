@@ -119,10 +119,10 @@
 
     ![argocd-sonar](./images/argocd-sonar.png)
 
-7. Connect to Sonarqube UI to verify if the installation is successful (username `admin` & password `admin123`):
+7. Connect to Sonarqube UI to verify if the installation is successful,  (username `admin` & password `admin123`):
 
     ```bash
-    echo https://$(oc get route sonarqube --template='{{ .spec.host }}' -n ${TEAM_NAME}-ci-cd)
+    echo https://$(oc get route sonarqube --template='{{ .spec.host }}' -n ${TEAM_NAME}-ci-cd)/admin/plugin_risk_consent
     ```
 
     ![sonary-alive](./images/sonary-alive.png)
